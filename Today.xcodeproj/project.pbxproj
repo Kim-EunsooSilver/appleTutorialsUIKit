@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89845E0F277D6D6200EBF191 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89845E0E277D6D6200EBF191 /* Reminder.swift */; };
 		89ABCB53277C9B9C0041B3B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ABCB52277C9B9C0041B3B2 /* AppDelegate.swift */; };
 		89ABCB55277C9B9C0041B3B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ABCB54277C9B9C0041B3B2 /* SceneDelegate.swift */; };
 		89ABCB57277C9B9C0041B3B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ABCB56277C9B9C0041B3B2 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89845E0E277D6D6200EBF191 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		89ABCB4F277C9B9C0041B3B2 /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89ABCB52277C9B9C0041B3B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89ABCB54277C9B9C0041B3B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				89ABCB54277C9B9C0041B3B2 /* SceneDelegate.swift */,
 				89ABCB56277C9B9C0041B3B2 /* ViewController.swift */,
 				89ABCB58277C9B9C0041B3B2 /* Main.storyboard */,
+				89845E0E277D6D6200EBF191 /* Reminder.swift */,
 				89ABCB5B277C9B9C0041B3B2 /* Assets.xcassets */,
 				89ABCB5D277C9B9C0041B3B2 /* LaunchScreen.storyboard */,
 				89ABCB60277C9B9C0041B3B2 /* Info.plist */,
@@ -141,6 +144,7 @@
 				89ABCB57277C9B9C0041B3B2 /* ViewController.swift in Sources */,
 				89ABCB53277C9B9C0041B3B2 /* AppDelegate.swift in Sources */,
 				89ABCB55277C9B9C0041B3B2 /* SceneDelegate.swift in Sources */,
+				89845E0F277D6D6200EBF191 /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
