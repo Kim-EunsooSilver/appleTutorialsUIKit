@@ -23,9 +23,12 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="99"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8I2-CU-52i">
-                                            <rect key="frame" x="44" y="35" width="44" height="44"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8I2-CU-52i">
+                                            <rect key="frame" x="20" y="27.5" width="44" height="44"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="8I2-CU-52i" secondAttribute="height" multiplier="1:1" id="DDF-FS-Tab"/>
+                                                <constraint firstAttribute="width" constant="44" id="R1t-Jc-wWo"/>
+                                            </constraints>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain" image="circle" catalog="system"/>
                                         </button>
@@ -44,6 +47,10 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="8I2-CU-52i" firstAttribute="leading" secondItem="gSB-7J-Uq6" secondAttribute="leadingMargin" id="Nhm-Ga-a6D"/>
+                                        <constraint firstItem="8I2-CU-52i" firstAttribute="centerY" secondItem="gSB-7J-Uq6" secondAttribute="centerY" id="zX5-JB-dNX"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
